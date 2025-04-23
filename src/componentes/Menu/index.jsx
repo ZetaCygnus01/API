@@ -5,11 +5,10 @@ function Menu() {
     return (
         <nav className="c-menu">
           <Link to="/Listar">Listar</Link>
+          <Link to="/capturados">Capturados</Link>
           <Link to="/Aleatorios">Aleatorios</Link>
-          <Link to="/Detalle">Detalle</Link>
-          <Link to="/Favoritos">Favoritos</Link>
           <Link to="/Usuario">Usuario</Link>
-          <Link to="/Original">Original</Link>
+          <Link to="/Favoritos">Favoritos</Link>
         </nav>
     )
   }
