@@ -19,16 +19,17 @@ function App() {
       <Menu/>
 
       <Routes>
-      <Route path="/" element={<Lista/>}/>
-      <Route path="/Usuario" element={<Usuario/>}/>
-      <Route path="/Aleatorios" element={<Aleatorios/>}/>
+      <Route path="/" element={<Lista/>} />
+      <Route path="/Usuario" element={<Usuario/>} />
+      <Route path="/Aleatorios" element={<Aleatorios/>} />
       <Route path="/capturados" element={<Capturados />} />
+      <Route path="/Favoritos" element={<Favoritos />} />
       <Route path="/Detalle/:name" element={<Detalle />} />
       </Routes>
 
     </Router>
     </AppProvider>
-  )
+  );
 }
 
 export default App
