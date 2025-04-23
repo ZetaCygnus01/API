@@ -4,7 +4,7 @@ import { AppProvider } from './contexto/contexto';
 
 import Menu from './componentes/Menu'
 import Aleatorios from './componentes/Aleatorios'
-import Listar from './componentes/Listar'
+import Lista from './componentes/Lista'
 import Capturados from './componentes/capturados';
 import Favoritos from './componentes/Favoritos'
 import Usuario from './componentes/Usuario'
@@ -19,11 +19,10 @@ function App() {
       <Menu/>
 
       <Routes>
-      <Route path="/" element={<Listar/>}/>
+      <Route path="/" element={<Lista/>}/>
       <Route path="/Usuario" element={<Usuario/>}/>
       <Route path="/Aleatorios" element={<Aleatorios/>}/>
       <Route path="/capturados" element={<Capturados />} />
-      <Route path="/Favoritos" element={<Favoritos/>}/>
       <Route path="/Detalle/:name" element={<Detalle />} />
       </Routes>
 
